@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/movieIV"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/captainamerica"
+        />
+    <TextView
+        android:id="@+id/movieNameTV"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avengers"
+        android:textColor="#00C853"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/teamNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avengers"
+                android:textSize="16sp"
+                android:textColor="#353333"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Release: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/firstRealeseTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1941"
+                android:textSize="16sp"
+                android:textColor="#353333"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created By: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/createdByTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joe Simon"
+                android:textSize="16sp"
+                android:textColor="#353333"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Publisher: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/publisherTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marvel Comics"
+                android:textSize="16sp"
+                android:textColor="#353333"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
