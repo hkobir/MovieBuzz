@@ -38,7 +38,7 @@ public class AdapterMovie extends RecyclerView.Adapter<AdapterMovie.ViewHolder> 
         Movie cMovie = movieList.get(position);
         //load Image by picasso
         Picasso.Builder builder = new Picasso.Builder(context);
-        builder.build().load(cMovie.getImageurl()).placeholder(R.drawable.place_image).into(holder.movieImage);
+        builder.build().load(cMovie.getImageurl()).placeholder(R.drawable.place_image).error(R.drawable.error_place).into(holder.movieImage);
 
         holder.name.setText(cMovie.getName());
         holder.team.setText(cMovie.getTeam());

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DemoRestApiMovie</string>
+    <string name="app_lebel">MovieBuzz</string>
 </resources>
