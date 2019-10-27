@@ -12,6 +12,12 @@
             android:id="@+id/movieRV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/insertButton"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert Data"/>
 
         <ProgressBar
             android:id="@+id/progressBar"
